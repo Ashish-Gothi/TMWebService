@@ -22,8 +22,8 @@ write name of those package where your service
 class reside.
 
 If your service is in the form jar file.
-then keep this jar file into myLib folder(Compulsorily)
-
+then keep this jar file into myLib folder(Compulsarily)
+-----------------------------------
 -----------------------------------
 A zip file is provide which is our sample 
 web application. Download it. and unzip into 
@@ -36,6 +36,17 @@ Dependency jar File:(should be in lib folder)
 2)itext jar files	
 
 ======================================
+interface :com.thinking.machines.interfaces.WebServiceInterface;
+Service Class:com.thinking.machines.servlets.TMService;
+===========================
+package name
+com.thinking.machines.servlets.*;
+com.thinking.machines.annotations.*;
+com.thinking.machines.interfaces.*;
+
+All the annotations are under this package
+com.thinking.machines.annotations.*;
+
 --------------------------------------
 For getting the report of service.
 type in address bar ../service/tm-report/report 
